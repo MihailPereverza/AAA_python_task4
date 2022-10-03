@@ -1,0 +1,35 @@
+C:\Users\User\PycharmProjects\ds_python_fourth_homework\src\issue_02> python morse.py -v -o NORMALIZE_WHITESPACE
+Trying:
+    decode('.- -- --- --. ..- ...')
+Expecting:
+    'AMOGUS'
+ok
+Trying:
+    decode('.-          -...')
+Expecting:
+    'AB'
+ok
+Trying:
+    decode('')
+Expecting:
+    ''
+ok
+Trying:
+    decode('u')
+Expecting:
+    Traceback (most recent call last):
+    KeyError: 'u'
+ok
+Trying:
+    decode('.--...')
+Expecting:
+    Traceback (most recent call last):
+    KeyError: '.--...'
+ok
+1 items had no tests:
+    __main__
+1 items passed all tests:
+   5 tests in __main__.decode
+5 tests in 2 items.
+5 passed and 0 failed.
+Test passed.

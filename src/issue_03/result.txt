@@ -1,0 +1,10 @@
+C:\Users\User\PycharmProjects\ds_python_fourth_homework\src\issue_03> python -m unittest -v
+test_cities_repeat_several_times (test_hot_encoder.TestFitTransform) ... ok
+test_empty_args (test_hot_encoder.TestFitTransform) ... ok
+test_one_city_repeat (test_hot_encoder.TestFitTransform) ... ok
+test_several_cities_repeat (test_hot_encoder.TestFitTransform) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK

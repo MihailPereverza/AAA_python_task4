@@ -1,6 +1,8 @@
 # issue-02
 
 ## Варианты запуска тестов:
-1. Из корня проекта выполните `python -m doctest -v morse.py -o NORMALIZE_WHITESPACE`
-2. Из файла src/issue_02/morse.py в PyCharm нажать ctrl + shift + f10
-3. Из корня проекта выполнить `python morse.py -v -o NORMALIZE_WHITESPACE`
+1. Выполнить команду `pytest -v`
+2. Из файла test_pytest_morse.py в PyCharm, установив либо 
+каретку на строку с определением класса, либо на любую другую строку, 
+которая не является частью имплементации конкретного теста, 
+нажать ctrl + shift + f10
